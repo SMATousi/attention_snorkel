@@ -2430,3 +2430,133 @@
 2024-06-25 13:20:24,453 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
 2024-06-25 13:20:29,454 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
 2024-06-25 13:20:30,127 DEBUG   SenderThread:217300 [sender.py:send():369] send: stats
+2024-06-25 13:20:34,358 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:20:34,359 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:20:34,519 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:20:39,519 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:20:44,520 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:20:49,358 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:20:49,359 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:20:50,507 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:20:53,111 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-25 13:20:53,112 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-25 13:20:53,112 DEBUG   SenderThread:217300 [sender.py:send():369] send: history
+2024-06-25 13:20:53,113 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: summary_record
+2024-06-25 13:20:53,175 INFO    SenderThread:217300 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-25 13:20:53,176 DEBUG   SenderThread:217300 [sender.py:send():369] send: history
+2024-06-25 13:20:53,176 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: summary_record
+2024-06-25 13:20:53,234 INFO    SenderThread:217300 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-25 13:20:53,720 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/wandb-summary.json
+2024-06-25 13:20:55,762 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:20:56,235 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:00,128 DEBUG   SenderThread:217300 [sender.py:send():369] send: stats
+2024-06-25 13:21:01,587 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:03,809 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:04,358 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:21:04,359 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:21:05,859 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:06,630 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:07,910 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:09,962 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:11,641 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:12,004 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:14,038 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:16,080 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:16,683 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:18,398 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:19,358 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:21:19,359 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:21:19,432 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:21,474 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:21,753 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:23,516 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:25,567 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:26,853 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:27,601 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:29,644 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:30,129 DEBUG   SenderThread:217300 [sender.py:send():369] send: stats
+2024-06-25 13:21:31,703 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:31,891 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:33,737 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:34,359 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:21:34,359 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:21:35,771 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:36,911 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:37,805 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:39,839 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:41,882 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:41,995 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:43,933 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:45,975 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:21:47,949 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:49,359 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:21:49,359 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:21:53,468 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:21:58,469 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:00,129 DEBUG   SenderThread:217300 [sender.py:send():369] send: stats
+2024-06-25 13:22:04,130 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:04,359 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:22:04,359 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:22:09,462 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:14,463 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:19,359 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:22:19,360 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:22:20,463 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:25,463 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:30,173 DEBUG   SenderThread:217300 [sender.py:send():369] send: stats
+2024-06-25 13:22:31,174 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:34,359 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:22:34,360 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:22:36,472 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:41,473 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:42,172 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-25 13:22:42,172 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-25 13:22:42,173 DEBUG   SenderThread:217300 [sender.py:send():369] send: history
+2024-06-25 13:22:42,173 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: summary_record
+2024-06-25 13:22:42,224 INFO    SenderThread:217300 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-25 13:22:42,224 DEBUG   SenderThread:217300 [sender.py:send():369] send: history
+2024-06-25 13:22:42,224 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: summary_record
+2024-06-25 13:22:42,286 INFO    SenderThread:217300 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-25 13:22:43,075 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:22:43,075 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/wandb-summary.json
+2024-06-25 13:22:47,288 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:49,359 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:22:49,360 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:22:52,403 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:54,128 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:22:56,273 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:22:57,429 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:22:58,324 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:00,131 DEBUG   SenderThread:217300 [sender.py:send():369] send: stats
+2024-06-25 13:23:00,366 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:02,408 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:02,528 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:23:03,442 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:04,359 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:23:04,360 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:23:05,476 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:07,578 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:07,595 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:23:09,616 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:11,657 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:12,670 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:23:13,696 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:15,740 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:17,679 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:23:17,783 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:19,360 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:23:19,360 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:23:19,818 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:21,852 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:22,936 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:23:23,902 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:25,937 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:27,944 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:23:27,974 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:30,075 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:30,131 DEBUG   SenderThread:217300 [sender.py:send():369] send: stats
+2024-06-25 13:23:32,125 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:33,040 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:23:34,201 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:34,360 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:23:34,360 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
