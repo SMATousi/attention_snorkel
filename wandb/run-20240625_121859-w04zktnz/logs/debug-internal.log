@@ -2560,3 +2560,35 @@
 2024-06-25 13:23:34,201 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
 2024-06-25 13:23:34,360 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
 2024-06-25 13:23:34,360 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:23:36,243 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:38,869 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/output.log
+2024-06-25 13:23:38,927 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:23:43,928 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:23:48,929 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:23:49,360 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:23:49,360 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:23:54,445 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:23:59,446 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:24:00,132 DEBUG   SenderThread:217300 [sender.py:send():369] send: stats
+2024-06-25 13:24:04,360 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:24:04,361 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:24:04,477 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:24:09,478 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:24:14,479 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:24:19,360 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:24:19,361 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:24:20,440 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:24:25,441 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:24:30,133 DEBUG   SenderThread:217300 [sender.py:send():369] send: stats
+2024-06-25 13:24:31,134 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 13:24:34,361 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 13:24:34,361 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: stop_status
+2024-06-25 13:24:34,772 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-25 13:24:34,772 DEBUG   HandlerThread:217300 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-25 13:24:34,773 DEBUG   SenderThread:217300 [sender.py:send():369] send: history
+2024-06-25 13:24:34,773 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: summary_record
+2024-06-25 13:24:34,835 INFO    SenderThread:217300 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-25 13:24:34,835 DEBUG   SenderThread:217300 [sender.py:send():369] send: history
+2024-06-25 13:24:34,835 DEBUG   SenderThread:217300 [sender.py:send_request():396] send_request: summary_record
+2024-06-25 13:24:34,885 INFO    SenderThread:217300 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-25 13:24:34,932 INFO    Thread-12 :217300 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240625_121859-w04zktnz/files/wandb-summary.json
