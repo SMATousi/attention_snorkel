@@ -1,0 +1,456 @@
+2024-06-24 17:52:26,179 INFO    StreamThr :200891 [internal.py:wandb_internal():89] W&B internal server running at pid: 200891, started at: 2024-06-24 17:52:26.165909
+2024-06-24 17:52:26,181 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status
+2024-06-24 17:52:26,186 INFO    WriterThread:200891 [datastore.py:open_for_write():85] open: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/run-h4oh2k2t.wandb
+2024-06-24 17:52:26,221 DEBUG   SenderThread:200891 [sender.py:send():369] send: header
+2024-06-24 17:52:26,221 DEBUG   SenderThread:200891 [sender.py:send():369] send: run
+2024-06-24 17:52:26,617 INFO    SenderThread:200891 [dir_watcher.py:__init__():211] watching files in: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files
+2024-06-24 17:52:26,617 INFO    SenderThread:200891 [sender.py:_start_run_threads():1103] run started: h4oh2k2t with start time 1719269545.281338
+2024-06-24 17:52:26,617 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:26,621 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: check_version
+2024-06-24 17:52:26,671 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:26,672 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: check_version
+2024-06-24 17:52:26,787 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: run_start
+2024-06-24 17:52:26,788 DEBUG   HandlerThread:200891 [system_info.py:__init__():31] System info init
+2024-06-24 17:52:26,788 DEBUG   HandlerThread:200891 [system_info.py:__init__():46] System info init done
+2024-06-24 17:52:26,788 INFO    HandlerThread:200891 [system_monitor.py:start():181] Starting system monitor
+2024-06-24 17:52:26,788 INFO    SystemMonitor:200891 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-06-24 17:52:26,789 INFO    HandlerThread:200891 [system_monitor.py:probe():201] Collecting system info
+2024-06-24 17:52:26,790 INFO    SystemMonitor:200891 [interfaces.py:start():190] Started cpu monitoring
+2024-06-24 17:52:26,791 INFO    SystemMonitor:200891 [interfaces.py:start():190] Started disk monitoring
+2024-06-24 17:52:26,792 INFO    SystemMonitor:200891 [interfaces.py:start():190] Started gpu monitoring
+2024-06-24 17:52:26,794 INFO    SystemMonitor:200891 [interfaces.py:start():190] Started memory monitoring
+2024-06-24 17:52:26,795 INFO    SystemMonitor:200891 [interfaces.py:start():190] Started network monitoring
+2024-06-24 17:52:26,836 DEBUG   HandlerThread:200891 [system_info.py:probe():195] Probing system
+2024-06-24 17:52:26,837 DEBUG   HandlerThread:200891 [system_info.py:_probe_git():180] Probing git
+2024-06-24 17:52:26,919 DEBUG   HandlerThread:200891 [system_info.py:_probe_git():188] Probing git done
+2024-06-24 17:52:26,920 DEBUG   HandlerThread:200891 [system_info.py:probe():240] Probing system done
+2024-06-24 17:52:26,920 DEBUG   HandlerThread:200891 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-83-generic-x86_64-with-debian-bookworm-sid', 'python': '3.7.13', 'heartbeatAt': '2024-06-24T22:52:26.836115', 'startedAt': '2024-06-24T22:52:16.047378', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'reproducing_snorkel.ipynb', 'root': '/home/macula/SMATousi/snorkel/attention_snorkel', 'git': {'remote': 'git@github.com:SMATousi/attention_snorkel.git', 'commit': '94aa4a9bfa993c0c8f9a0398f83c4b5e1b29f5af'}, 'email': 'mohamadali.tousi@gmail.com', 'host': 'fovea', 'username': 'SMATousi', 'executable': '/home/macula/SMATousi/.conda/envs/mac-deep/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2944.414875, 'min': 800.0, 'max': 4716.666666666667}, 'cpu_freq_per_core': [{'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 3200.0, 'min': 800.0, 'max': 5200.0}, {'current': 3200.0, 'min': 800.0, 'max': 5200.0}, {'current': 3200.0, 'min': 800.0, 'max': 5200.0}, {'current': 3200.0, 'min': 800.0, 'max': 5200.0}, {'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 3200.0, 'min': 800.0, 'max': 5100.0}, {'current': 910.822, 'min': 800.0, 'max': 3900.0}, {'current': 3200.0, 'min': 800.0, 'max': 3900.0}, {'current': 3200.0, 'min': 800.0, 'max': 3900.0}, {'current': 3200.0, 'min': 800.0, 'max': 3900.0}, {'current': 3200.0, 'min': 800.0, 'max': 3900.0}, {'current': 3200.0, 'min': 800.0, 'max': 3900.0}, {'current': 3200.0, 'min': 800.0, 'max': 3900.0}, {'current': 3200.0, 'min': 800.0, 'max': 3900.0}], 'disk': {'total': 878.0427589416504, 'used': 79.52850341796875}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 31.03472137451172}}
+2024-06-24 17:52:26,921 INFO    HandlerThread:200891 [system_monitor.py:probe():211] Finished collecting system info
+2024-06-24 17:52:26,922 INFO    HandlerThread:200891 [system_monitor.py:probe():214] Publishing system info
+2024-06-24 17:52:26,922 DEBUG   HandlerThread:200891 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-06-24 17:52:26,971 DEBUG   HandlerThread:200891 [system_info.py:_save_pip():67] Saving pip packages done
+2024-06-24 17:52:26,973 DEBUG   HandlerThread:200891 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-06-24 17:52:27,620 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_created():272] file/dir created: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:27,620 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_created():272] file/dir created: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/requirements.txt
+2024-06-24 17:52:27,620 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_created():272] file/dir created: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/conda-environment.yaml
+2024-06-24 17:52:31,150 DEBUG   HandlerThread:200891 [system_info.py:_save_conda():86] Saving conda packages done
+2024-06-24 17:52:31,208 INFO    HandlerThread:200891 [system_monitor.py:probe():216] Finished publishing system info
+2024-06-24 17:52:31,211 DEBUG   SenderThread:200891 [sender.py:send():369] send: files
+2024-06-24 17:52:31,211 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2024-06-24 17:52:31,212 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:52:31,241 DEBUG   SenderThread:200891 [sender.py:send():369] send: telemetry
+2024-06-24 17:52:31,241 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-24 17:52:31,242 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: stop_status
+2024-06-24 17:52:31,523 INFO    wandb-upload_0:200891 [upload_job.py:push():133] Uploaded file /tmp/tmpy847hpshwandb/qecqg4xh-wandb-metadata.json
+2024-06-24 17:52:31,626 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/conda-environment.yaml
+2024-06-24 17:52:31,626 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_created():272] file/dir created: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:52:31,626 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_created():272] file/dir created: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-metadata.json
+2024-06-24 17:52:33,281 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:33,308 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:33,309 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:33,309 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:33,367 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:33,368 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:33,368 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:33,418 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:33,659 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:33,659 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:52:35,710 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:52:36,941 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:52:41,942 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:52:45,765 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:52:46,238 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-24 17:52:46,238 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: stop_status
+2024-06-24 17:52:47,345 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:52:48,843 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:48,844 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:48,844 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:48,844 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:48,899 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:48,900 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:48,900 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:48,950 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:49,817 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:49,817 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:52:49,933 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:49,933 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:49,934 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:49,934 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:49,992 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:49,992 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:49,992 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:50,042 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:50,818 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:50,917 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:50,918 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:50,919 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:50,919 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:50,984 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:50,985 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:50,985 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:51,035 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:51,860 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:51,861 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:52:51,978 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:51,978 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:51,979 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:51,979 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:52,035 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:52,036 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:52,036 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:52,094 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:52,347 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:52:52,862 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:52,961 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:52,961 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:52,962 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:52,962 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:53,019 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:53,019 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:53,020 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:53,078 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:53,863 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:53,863 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:52:53,944 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:53,945 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:53,946 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:53,946 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:54,003 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:54,004 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:54,004 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:54,062 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:54,864 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:55,021 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:55,021 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:55,022 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:55,023 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:55,088 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:55,088 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:55,088 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:55,146 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:55,905 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:55,905 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:52:56,000 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:56,000 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:56,001 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:56,001 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:56,063 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:56,063 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:56,063 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:56,155 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:56,906 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:56,988 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:56,988 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:56,989 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:56,989 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:57,050 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:57,050 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:57,050 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:57,108 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:57,440 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:52:57,942 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:57,943 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:52:57,943 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/config.yaml
+2024-06-24 17:52:58,054 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:58,054 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:58,055 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:58,055 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:58,118 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:58,118 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:58,118 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:58,168 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:58,943 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:59,033 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:59,034 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:52:59,035 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:59,035 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:59,085 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:59,085 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:52:59,085 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:52:59,135 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:52:59,978 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:52:59,978 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:53:00,016 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:00,016 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:00,017 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:00,017 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:00,095 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:00,095 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:00,095 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:00,153 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:00,979 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:53:01,078 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:01,078 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:01,079 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:01,079 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:01,145 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:01,146 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:01,146 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:01,221 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:01,241 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-24 17:53:01,241 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: stop_status
+2024-06-24 17:53:02,021 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:53:02,021 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:53:02,063 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:02,064 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:02,065 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:02,065 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:02,121 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:02,122 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:02,122 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:02,172 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:03,022 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:53:03,037 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:53:03,041 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:03,042 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:03,042 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:03,043 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:03,131 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:03,131 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:03,131 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:03,214 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:04,024 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:53:04,107 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:53:04,113 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:04,113 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:04,114 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:04,114 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:04,241 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:04,241 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:04,241 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:04,299 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:05,025 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:53:05,096 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:05,097 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:05,097 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:05,098 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:05,167 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:05,167 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:05,167 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:05,225 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:06,067 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:53:06,067 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:53:06,073 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:06,073 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: partial_history
+2024-06-24 17:53:06,074 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:06,074 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:06,134 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:06,135 DEBUG   SenderThread:200891 [sender.py:send():369] send: history
+2024-06-24 17:53:06,135 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: summary_record
+2024-06-24 17:53:06,244 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:53:07,068 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:53:07,161 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: pause
+2024-06-24 17:53:07,161 INFO    HandlerThread:200891 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2024-06-24 17:53:07,161 INFO    HandlerThread:200891 [system_monitor.py:finish():190] Stopping system monitor
+2024-06-24 17:53:07,161 INFO    HandlerThread:200891 [interfaces.py:finish():202] Joined cpu monitor
+2024-06-24 17:53:07,161 DEBUG   SystemMonitor:200891 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-06-24 17:53:07,161 DEBUG   SystemMonitor:200891 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-06-24 17:53:07,162 DEBUG   SystemMonitor:200891 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-06-24 17:53:07,163 INFO    HandlerThread:200891 [interfaces.py:finish():202] Joined disk monitor
+2024-06-24 17:53:07,197 INFO    HandlerThread:200891 [interfaces.py:finish():202] Joined gpu monitor
+2024-06-24 17:53:07,197 INFO    HandlerThread:200891 [interfaces.py:finish():202] Joined memory monitor
+2024-06-24 17:53:07,197 INFO    HandlerThread:200891 [interfaces.py:finish():202] Joined network monitor
+2024-06-24 17:53:07,198 DEBUG   SenderThread:200891 [sender.py:send():369] send: stats
+2024-06-24 17:53:08,112 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/output.log
+2024-06-24 17:53:08,199 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:53:13,200 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:53:16,241 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-24 17:53:16,243 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: stop_status
+2024-06-24 17:53:18,351 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:53:23,353 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:53:28,354 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:53:31,243 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-24 17:53:31,244 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: stop_status
+2024-06-24 17:53:33,404 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:53:38,405 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:53:43,407 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:53:46,243 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-24 17:53:46,244 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: stop_status
+2024-06-24 17:53:49,355 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:53:54,357 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:53:59,358 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:54:01,243 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-24 17:54:01,244 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: stop_status
+2024-06-24 17:54:04,376 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:54:09,377 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:54:14,378 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:54:16,242 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-24 17:54:16,244 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: stop_status
+2024-06-24 17:54:19,394 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:54:21,630 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: resume
+2024-06-24 17:54:21,631 INFO    HandlerThread:200891 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2024-06-24 17:54:21,631 INFO    HandlerThread:200891 [system_monitor.py:start():181] Starting system monitor
+2024-06-24 17:54:21,631 INFO    SystemMonitor:200891 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-06-24 17:54:21,632 INFO    SystemMonitor:200891 [interfaces.py:start():190] Started cpu monitoring
+2024-06-24 17:54:21,633 INFO    SystemMonitor:200891 [interfaces.py:start():190] Started disk monitoring
+2024-06-24 17:54:21,634 INFO    SystemMonitor:200891 [interfaces.py:start():190] Started gpu monitoring
+2024-06-24 17:54:21,635 INFO    SystemMonitor:200891 [interfaces.py:start():190] Started memory monitoring
+2024-06-24 17:54:21,635 INFO    SystemMonitor:200891 [interfaces.py:start():190] Started network monitoring
+2024-06-24 17:54:22,136 DEBUG   SenderThread:200891 [sender.py:send():369] send: telemetry
+2024-06-24 17:54:22,139 DEBUG   SenderThread:200891 [sender.py:send():369] send: exit
+2024-06-24 17:54:22,139 INFO    SenderThread:200891 [sender.py:send_exit():574] handling exit code: 0
+2024-06-24 17:54:22,139 INFO    SenderThread:200891 [sender.py:send_exit():576] handling runtime: 40
+2024-06-24 17:54:22,196 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:54:22,196 INFO    SenderThread:200891 [sender.py:send_exit():582] send defer
+2024-06-24 17:54:22,197 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: defer
+2024-06-24 17:54:22,197 INFO    HandlerThread:200891 [handler.py:handle_request_defer():170] handle defer: 0
+2024-06-24 17:54:22,198 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: defer
+2024-06-24 17:54:22,198 INFO    SenderThread:200891 [sender.py:send_request_defer():598] handle sender defer: 0
+2024-06-24 17:54:22,198 INFO    SenderThread:200891 [sender.py:transition_state():602] send defer: 1
+2024-06-24 17:54:22,198 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: defer
+2024-06-24 17:54:22,199 INFO    HandlerThread:200891 [handler.py:handle_request_defer():170] handle defer: 1
+2024-06-24 17:54:22,199 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: defer
+2024-06-24 17:54:22,200 INFO    SenderThread:200891 [sender.py:send_request_defer():598] handle sender defer: 1
+2024-06-24 17:54:22,200 INFO    SenderThread:200891 [sender.py:transition_state():602] send defer: 2
+2024-06-24 17:54:22,200 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: defer
+2024-06-24 17:54:22,200 INFO    HandlerThread:200891 [handler.py:handle_request_defer():170] handle defer: 2
+2024-06-24 17:54:22,200 INFO    HandlerThread:200891 [system_monitor.py:finish():190] Stopping system monitor
+2024-06-24 17:54:22,201 DEBUG   SystemMonitor:200891 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-06-24 17:54:22,201 DEBUG   SystemMonitor:200891 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-06-24 17:54:22,201 DEBUG   SystemMonitor:200891 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-06-24 17:54:22,203 INFO    HandlerThread:200891 [interfaces.py:finish():202] Joined cpu monitor
+2024-06-24 17:54:22,203 INFO    HandlerThread:200891 [interfaces.py:finish():202] Joined disk monitor
+2024-06-24 17:54:22,239 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:54:22,240 INFO    HandlerThread:200891 [interfaces.py:finish():202] Joined gpu monitor
+2024-06-24 17:54:22,240 INFO    HandlerThread:200891 [interfaces.py:finish():202] Joined memory monitor
+2024-06-24 17:54:22,240 INFO    HandlerThread:200891 [interfaces.py:finish():202] Joined network monitor
+2024-06-24 17:54:22,241 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: defer
+2024-06-24 17:54:22,241 INFO    SenderThread:200891 [sender.py:send_request_defer():598] handle sender defer: 2
+2024-06-24 17:54:22,241 INFO    SenderThread:200891 [sender.py:transition_state():602] send defer: 3
+2024-06-24 17:54:22,241 DEBUG   SenderThread:200891 [sender.py:send():369] send: stats
+2024-06-24 17:54:22,241 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: defer
+2024-06-24 17:54:22,241 INFO    HandlerThread:200891 [handler.py:handle_request_defer():170] handle defer: 3
+2024-06-24 17:54:22,241 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: defer
+2024-06-24 17:54:22,241 INFO    SenderThread:200891 [sender.py:send_request_defer():598] handle sender defer: 3
+2024-06-24 17:54:22,241 INFO    SenderThread:200891 [sender.py:transition_state():602] send defer: 4
+2024-06-24 17:54:22,242 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: defer
+2024-06-24 17:54:22,242 INFO    HandlerThread:200891 [handler.py:handle_request_defer():170] handle defer: 4
+2024-06-24 17:54:22,242 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: defer
+2024-06-24 17:54:22,242 INFO    SenderThread:200891 [sender.py:send_request_defer():598] handle sender defer: 4
+2024-06-24 17:54:22,242 INFO    SenderThread:200891 [sender.py:transition_state():602] send defer: 5
+2024-06-24 17:54:22,242 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: defer
+2024-06-24 17:54:22,242 INFO    HandlerThread:200891 [handler.py:handle_request_defer():170] handle defer: 5
+2024-06-24 17:54:22,243 DEBUG   SenderThread:200891 [sender.py:send():369] send: summary
+2024-06-24 17:54:22,304 INFO    SenderThread:200891 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-06-24 17:54:22,305 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: defer
+2024-06-24 17:54:22,305 INFO    SenderThread:200891 [sender.py:send_request_defer():598] handle sender defer: 5
+2024-06-24 17:54:22,305 INFO    SenderThread:200891 [sender.py:transition_state():602] send defer: 6
+2024-06-24 17:54:22,306 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: defer
+2024-06-24 17:54:22,306 INFO    HandlerThread:200891 [handler.py:handle_request_defer():170] handle defer: 6
+2024-06-24 17:54:22,306 DEBUG   SenderThread:200891 [sender.py:send_request():396] send_request: defer
+2024-06-24 17:54:22,307 INFO    SenderThread:200891 [sender.py:send_request_defer():598] handle sender defer: 6
+2024-06-24 17:54:22,312 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: status_report
+2024-06-24 17:54:22,363 ERROR   SenderThread:200891 [internal_api.py:execute():323] 409 response executing GraphQL.
+2024-06-24 17:54:22,363 ERROR   SenderThread:200891 [internal_api.py:execute():324] {"errors":[{"message":"run h4oh2k2t was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-06-24 17:54:23,142 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: poll_exit
+2024-06-24 17:54:23,241 INFO    Thread-64 :200891 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/files/wandb-summary.json
+2024-06-24 17:54:23,480 ERROR   SenderThread:200891 [internal_api.py:execute():323] 409 response executing GraphQL.
+2024-06-24 17:54:23,481 ERROR   SenderThread:200891 [internal_api.py:execute():324] {"errors":[{"message":"run h4oh2k2t was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-06-24 17:54:25,797 ERROR   SenderThread:200891 [internal_api.py:execute():323] 409 response executing GraphQL.
+2024-06-24 17:54:25,797 ERROR   SenderThread:200891 [internal_api.py:execute():324] {"errors":[{"message":"run h4oh2k2t was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-06-24 17:54:25,797 INFO    SenderThread:200891 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 320, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/gql_request.py", line 56, in execute
+    request.raise_for_status()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2024-06-24 17:54:28,144 DEBUG   HandlerThread:200891 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-24 17:54:30,319 ERROR   SenderThread:200891 [internal_api.py:execute():323] 409 response executing GraphQL.
+2024-06-24 17:54:30,319 ERROR   SenderThread:200891 [internal_api.py:execute():324] {"errors":[{"message":"run h4oh2k2t was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-06-24 17:54:39,251 ERROR   SenderThread:200891 [internal_api.py:execute():323] 409 response executing GraphQL.
+2024-06-24 17:54:39,252 ERROR   SenderThread:200891 [internal_api.py:execute():324] {"errors":[{"message":"run h4oh2k2t was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-06-24 17:55:07,353 WARNING StreamThr :200891 [internal.py:is_dead():415] Internal process exiting, parent pid 200113 disappeared
+2024-06-24 17:55:07,354 ERROR   StreamThr :200891 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-06-24 17:55:08,155 INFO    WriterThread:200891 [datastore.py:close():298] close: /home/macula/SMATousi/snorkel/attention_snorkel/wandb/run-20240624_175216-h4oh2k2t/run-h4oh2k2t.wandb
+2024-06-24 17:55:08,156 INFO    HandlerThread:200891 [handler.py:finish():854] shutting down handler
+2024-06-24 17:55:44,448 ERROR   SenderThread:200891 [internal_api.py:execute():323] 409 response executing GraphQL.
+2024-06-24 17:55:44,449 ERROR   SenderThread:200891 [internal_api.py:execute():324] {"errors":[{"message":"run h4oh2k2t was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-06-24 17:55:44,449 ERROR   StreamThr :200891 [internal.py:wandb_internal():174] Thread SenderThread:
+Traceback (most recent call last):
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 320, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/gql_request.py", line 56, in execute
+    request.raise_for_status()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 1731, in upsert_run
+    **kwargs,
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 295, in gql
+    **kwargs,
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 326, in execute
+    wandb.termerror(f"Error while calling W&B API: {error} ({response})")
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/errors/term.py", line 66, in termerror
+    **kwargs,
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/click/utils.py", line 300, in echo
+    file.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/internal.py", line 328, in _process
+    self._sm.send(record)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 376, in send
+    send_handler(record)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 398, in send_request
+    send_handler(record)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 624, in send_request_defer
+    self.debounce(final=True)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 527, in debounce
+    self._maybe_update_config(always=final)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 504, in _maybe_update_config
+    self._debounce_config()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 534, in _debounce_config
+    name=self._run.run_id, config=config_value_dict, **self._api_settings  # type: ignore
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 1731, in upsert_run
+    **kwargs,
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 295, in gql
+    **kwargs,
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 326, in execute
+    wandb.termerror(f"Error while calling W&B API: {error} ({response})")
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/errors/term.py", line 66, in termerror
+    **kwargs,
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/click/utils.py", line 300, in echo
+    file.flush()
+wandb.errors.CommError: [Errno 32] Broken pipe
+2024-06-24 17:55:45,578 INFO    MainThread:200891 [internal.py:handle_exit():76] Internal process exited
+2024-06-24 17:55:45,578 INFO    MainThread:200891 [internal.py:handle_exit():76] Internal process exited
+2024-06-24 17:55:45,579 INFO    MainThread:200891 [internal.py:handle_exit():76] Internal process exited
+2024-06-24 17:55:45,579 INFO    MainThread:200891 [internal.py:handle_exit():76] Internal process exited
+2024-06-24 17:55:45,579 INFO    MainThread:200891 [internal.py:handle_exit():76] Internal process exited

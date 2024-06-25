@@ -23,7 +23,7 @@ import sys
 np.random.seed(42)
 
 
-X, y = make_classification(n_samples=20000, n_features=3, n_informative=3, n_redundant=0,
+X, y = make_classification(n_samples=200000, n_features=3, n_informative=3, n_redundant=0,
                            n_clusters_per_class=1, weights=[0.5, 0.5], flip_y=0.05, class_sep=1.5)
 y = 2*y - 1
 
@@ -118,7 +118,7 @@ for i, modified_arr in enumerate(flipped_arrays):
 # In[6]:
 
 
-ALL_LFs
+# ALL_LFs
 
 
 # # Expected Value for alpha and beta
@@ -127,7 +127,7 @@ ALL_LFs
 
 
 m = 5
-epsilon = 0.2
+epsilon = 0.8
 s_cardinality = len(y)
 
 minimum_cardinality = (356/(epsilon)**2) * np.log(m/(3*epsilon))
@@ -187,15 +187,15 @@ class LabelModel(nn.Module):
 # In[ ]:
 
 
-model = LabelModel()
+# model = LabelModel()
 
 
 # In[ ]:
 
 
-model(alpha_beta_array=test_lf,
-      lf_label=test_lf_label,
-      true_label=test_label)
+# model(alpha_beta_array=test_lf,
+#       lf_label=test_lf_label,
+#       true_label=test_label)
 
 
 # # Data Loader
@@ -255,7 +255,7 @@ for epoch in range(num_epochs):
     initial_loss = 0
     optimizer.zero_grad()
     
-    for data_sample, lf_outputs in data_loader:
+    for data_sample, lf_outputs in tqdm(data_loader):
         
 
         
@@ -266,7 +266,7 @@ for epoch in range(num_epochs):
         
 
         
-        break
+        # break
     
     initial_loss = -initial_loss
     initial_loss.backward()
