@@ -91,10 +91,10 @@ arr = y
 m = 5  
 
 
-beta_list = [0.4 for i in range(m)]
+beta_list = [0.70 for i in range(m)]
 zero_n_list = [int((1 - beta)* y.shape[0]) for beta in beta_list]  
 
-alpha_list = [0.89 for i in range(m)]
+alpha_list = [0.82 for i in range(m)]
 n_list = [int((1-alpha)*(y.shape[0] - zero_n_list[i])) for i, alpha in enumerate(alpha_list)] 
 
 # m = 5
@@ -128,7 +128,7 @@ for i, modified_arr in enumerate(flipped_arrays):
 # In[5]:
 
 
-ALL_LFs
+# ALL_LFs
 
 
 # # Expected Value for alpha and beta
@@ -197,15 +197,15 @@ class LabelModel(nn.Module):
 # In[ ]:
 
 
-model = LabelModel()
+# model = LabelModel()
 
 
 # In[ ]:
 
 
-model(alpha_beta_array=test_lf,
-      lf_label=test_lf_label,
-      true_label=test_label)
+# model(alpha_beta_array=test_lf,
+#       lf_label=test_lf_label,
+#       true_label=test_label)
 
 
 # # Data Loader
@@ -261,7 +261,7 @@ data_loader = DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0)
 
 wandb.init(
         # set the wandb project where this run will be logged
-    project='Snorkel-Repro', name='Data-200k-epochs-1000-m-5-alpha89-beta40-lre-5'
+    project='Snorkel-Repro', name='Data-200k-epochs-1000-m-5-alpha82-beta70-lre-5'
 
         # track hyperparameters and run metadata
         # config={
@@ -317,7 +317,7 @@ for epoch in range(num_epochs):
 # In[ ]:
 
 
-param[0,1]
+# param[0,1]
 
 
 # In[ ]:
